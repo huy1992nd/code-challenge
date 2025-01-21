@@ -20,7 +20,7 @@ This project is a backend server implemented using ExpressJS and TypeScript. It 
 1.  Clone the repository:
    ```bash
    git clone https://github.com/huy1992nd/code-challenge.git
-   cd code-challenge
+   cd code-challenge/problem4
 
 2. Install dependencies:
     npm install
@@ -32,12 +32,6 @@ This project is a backend server implemented using ExpressJS and TypeScript. It 
 
 5. Make sure the PostgreSQL client is installed:
    npm install @prisma/client
-
-
-bash
-Copy
-Edit
-
 
 ## Running the Server
 Start the server in development mode:

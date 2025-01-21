@@ -1,0 +1,39 @@
+
+---
+
+#### **Diagram: Execution Flow**
+
+```plaintext
+┌───────────────┐
+│   User Action │
+└───────┬───────┘
+        │
+        ▼
+┌─────────────────┐
+│ Dispatch API    │
+│ Call to Backend │
+└───────┬─────────┘
+        │
+        ▼
+┌─────────────────┐
+│ Validate Token  │
+│ (Authentication)│
+└───────┬─────────┘
+        │
+        ▼
+┌─────────────────┐
+│ Validate Action │
+│ (actionId)      │
+└───────┬─────────┘
+        │
+        ▼
+┌─────────────────┐
+│ Update Score in │
+│ Database        │
+└───────┬─────────┘
+        │
+        ▼
+┌─────────────────┐
+│ Broadcast New   │
+│ Top 10 Scores   │
+└─────────────────┘

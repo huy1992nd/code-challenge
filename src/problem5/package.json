@@ -1,14 +1,14 @@
 {
-    "name": "your-project-name",
+    "name": "code-challenge",
     "version": "1.0.0",
-    "description": "Your project description",
+    "description": "A Crude Server",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
         "dev": "nodemon index.js"
     },
     "type": "module",
-    "author": "Your Name",
+    "author": "huynq",
     "license": "ISC",
     "dependencies": {
         "@prisma/client": "^6.2.1",
